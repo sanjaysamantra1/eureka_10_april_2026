@@ -6,9 +6,41 @@ Tools / Softwares
    Run the below Command in Terminal to verify NodeJs Is installed?
    node -v
 
-
 2. vscode ( Code Editor )
    https://code.visualstudio.com/download
 
-
 3. Git Repo : https://github.com/sanjaysamantra1/eureka_10_april_2026
+
+
+
+Web Development
+===============
+-Developing Website
+
+1. FrontEnd : User Interface ( Look & Feel )
+        HTML : Content ( div , paragraph, image, form, inputBox, table )
+        CSS : Styling ( border, background, width , height, margin , padding )
+        Bootstrap : CSS Library (Twitter) Pre-Defined CSS Classes
+        Javascript : Behaviour Of a webpage
+        Angular/React/Vue : Javascript Frameworks ( RAD , CLI , Forms, Routing , Ajax )
+
+2. BackEnd : Develop APIs ( Java , .net , Python , PHP , Go , NodeJs )
+
+3. DataBase : Holds the data ( Oracle , mySql, MongoDB )
+
+
+
+Product List Page
+==================
+1. Create an HTML File ( product_list.html )
+
+
+2. !   ( emmet / shortcuts ) add boilerplate code 
+   https://docs.emmet.io/cheat-sheet/
+
+
+3. Add Actual HTML, CSS , Javascript Code 
+
+4. To Open/Run HTML File in Browser
+   a.  install vscode extension ( Open In Browser / Live Server)
+   b.  alt+b   / alt+shift+b
