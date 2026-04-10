@@ -1,0 +1,14 @@
+Tools / Softwares
+=================
+1. NodeJS
+   https://nodejs.org/en/download
+
+   Run the below Command in Terminal to verify NodeJs Is installed?
+   node -v
+
+
+2. vscode ( Code Editor )
+   https://code.visualstudio.com/download
+
+
+3. Git Repo : https://github.com/sanjaysamantra1/eureka_10_april_2026
