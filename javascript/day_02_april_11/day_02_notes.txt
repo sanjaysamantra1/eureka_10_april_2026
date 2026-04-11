@@ -74,3 +74,12 @@ Both Browser & NodeJS : console, Math , Array , Objects, Number, JSON
 Only Browser, Not NodeJS :   document, window 
 
 Only NodeJS, not Browser : fs , os , http , url
+
+
+
+HTML Assignment-1:
+=================
+1. Create an HTML page using ul and li to display a list of your favorite foods.
+2. Write HTML code to create a nested list showing subjects and their topics.
+3. Design a dropdown menu (select) with at least 5 options (e.g., countries or courses).
+4. Create an HTML table to display student details (Name, Class, Marks)
