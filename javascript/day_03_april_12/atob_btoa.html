@@ -1,0 +1,11 @@
+<script>
+    let password = 'Angular@1234';
+
+    let encryptedPasswrod = window.btoa(password);
+    console.log('encryptedPasswrod: ', encryptedPasswrod);
+
+    let decryptedPassword = atob(encryptedPasswrod)
+    console.log('decryptedPassword: ', decryptedPassword);
+
+    console.log(this); // this = Current Object
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="myTitle1">Lets Learn Document Object</h1>
+    <h2>This is h2-1</h2>
+    <h2>This is h2-2</h2>
+    <h2>This is h2-3</h2>
+
+    <script>
+        document.write('Hello Javascript');
+
+        document.getElementById('myTitle1').style.color = 'red';
+        document.querySelector('h2').style.color = 'red';
+
+        let all_h2 = document.querySelectorAll('h2');
+        console.log(all_h2)
+
+        all_h2[1].style.color = 'blue'
+        all_h2[2].style.color = 'violet'
+    </script>
+</body>
+
+</html>
