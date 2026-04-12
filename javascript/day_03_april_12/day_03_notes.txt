@@ -27,3 +27,35 @@ Note: window object methods can be directly used
 
 
 Assignment: Ask User to enter 2 numbers, and perform addition
+
+
+Datatypes
+=========
+-Types of data
+
+2 types :  primitive , non-primitive
+
+Primitives:
+      number: 4 , 4.5 , -2.3 
+      string: 'sumant' , '' , '10' , 'true'
+      boolean: true , false
+      undefined: undefined
+      bigint
+      symbol
+non-primitives:
+      Object : {}   []
+
+
+undefined vs null
+==================
+-when a variable is declared without any value, javascript assigns 'undefined' value to that variable
+-null is an intensional value assigned by developers.
+-typeof 'undefined' is undefined, typeof 'null' is object
+
+
+Note: Primitives are compared by value, non-primitives are compared by address
+
+
+Assignment:
+1. ask user to enter a number, Check if that number is Even or Odd.
+2. ask user to enter 2 numbers, Find Largest of Two Numbers
