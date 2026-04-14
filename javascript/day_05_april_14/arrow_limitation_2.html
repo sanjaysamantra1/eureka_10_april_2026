@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <button id="loginBtn">Login</button>
+
+    <script>
+        let loginBtn = document.getElementById('loginBtn');
+
+        /* loginBtn.addEventListener('click', function () {
+            console.log('Login Btn CLicked', this); // this = loginBtn
+            this.style.color = 'red';
+        }) */
+
+        loginBtn.addEventListener('click', () => {
+            console.log('Login Btn CLicked', this); // this = window
+            this.style.color = 'red';
+        })
+    </script>
+</body>
+
+</html>

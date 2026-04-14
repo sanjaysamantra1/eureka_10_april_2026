@@ -1,0 +1,28 @@
+<script>
+    class Student {
+        firstname = 'Chetan';
+        lastname = 'Verma';
+
+        fullName1() { // this = how the function is called, this = Student
+            console.log(this)
+            console.log(this.firstname, this.lastname);
+        }
+        fullName2 = () => { // this = where the function is written, this = Student
+            console.log(this)
+            console.log(this.firstname, this.lastname);
+        }
+    }
+    let stdObj = new Student();
+    // stdObj.fullName1();  // Chetan Verma , this = Student
+    // stdObj.fullName2();  // Chetan Verma , this = Student
+
+    let a = stdObj.fullName2;
+    a();
+    let b = a;
+    b();
+    let c = b;
+    c();
+
+    let x = stdObj.fullName1;
+    x();
+</script>

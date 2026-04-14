@@ -1,0 +1,23 @@
+<script>
+    // 1. Function Declaration
+    add(10, 20);
+    function add(a, b) {
+        console.log(`Addition of ${a} & ${b} is ${a + b}`);
+    }
+    add(20, 30);
+
+
+    // 2. Function Expression
+    // sub(20, 10); // Cannot access 'sub'
+    let sub = function (a, b) {
+        console.log(`Subtraction of ${a} & ${b} is ${a - b}`);
+    }
+    sub(20, 10);
+
+
+    // 3. Arrow Function
+    let mul = (a, b) => {
+        console.log(`Multiplication of ${a} & ${b} is ${a * b}`);
+    }
+    mul(10, 20);
+</script>

@@ -1,0 +1,86 @@
+Hoisting:
+=========
+-hoisting is a mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed.
+-Variables declared with var are hoisted, but their values are not initialized. They are given an initial value of undefined.
+-Variables declared with let and const are also hoisted but are not initialized. Accessing them before declaration results in a ReferenceError because they are in the "temporal dead zone."
+-Function declarations are hoisted, meaning you can call them before they appear in the code.
+
+Type			   Hoisted?			   Initialized?			  Usable before declaration?
+=========================================================================================
+var					✅ Yes				❌ Undefined			⚠️ Allowed but undefined
+let					✅ Yes				❌ No				❌ ReferenceError
+const				✅ Yes				❌ No				❌ ReferenceError
+Func Declaration	✅ Yes				✅ Yes				✅ Allowed
+Func Expression 	✅ Yes				❌ Undefined			❌ TypeError
+
+
+
+Temporal Dead Zone
+==================
+-The period between entering scope and being initialized where they cannot be accessed. 
+ This period is the temporal dead zone (TDZ).
+-The state where variables are un-reachable. They are in memory, but they aren't usable.
+-The let and const variables exist in the TDZ from the start of their enclosing scope until they are initialized.
+-if a let/const variable is accessed before its initialization, it would throw a ReferenceError. Because of the TDZ.
+
+
+
+functions
+=========
+Pre Defined : javascript has these functions, we just have to use them  
+              console.log(), document.write()
+
+User Defined : we have to write, we have to use
+               simpleIntereset()
+
+
+1. Function Declaration
+2. Function Expression
+3. Arrow Function        
+
+
+Function Declaration vs Function Expression
+===========================================
+1. Function Declarations are named , Function Expressions are anonymous
+2. Function Declarations are hoisted , Function Expressions are not hoisted
+
+
+
+Arrow function
+==============
+-ECMAScript 6 (2015)
+-Shorter in Syntax
+-No Function keyword
+-'return' can be skipped
+-function Body is optional
+-anonymous
+-are not hoisted
+
+
+    function incrementBy5(ele) {
+        return ele + 5
+    }
+    let res1 = arr.map(incrementBy5);
+    console.log(res1);
+
+HigherOrder Function : A function that takes another function as arguement 
+                       in this example map() is higherorder 
+CallBack Function :  A function that is passed as argument to another function         
+                    in this example incrementBy5 is callback function             
+
+
+
+this
+====
+-'this' is a keyword in javascript
+-'this' refers to a specific object and acts as a reference to current context             
+
+
+Arrow Function Limitations
+==========================
+1. Arrow functions Shouldn't be used in object literals
+   if used , inside arrow function 'this' will not be the object
+2. Arrow Functions Shouldn't be used as event handlers
+
+
+

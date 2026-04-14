@@ -1,0 +1,11 @@
+<script>
+    console.log(a); // undefined (Hoisting)
+    var a = 10;
+    var b = 20;
+    function test() {
+        console.log(a); // undefined (Hoisting for function variable)
+        console.log(b); // 20
+        var a = 100;
+    }
+    test();
+</script>
