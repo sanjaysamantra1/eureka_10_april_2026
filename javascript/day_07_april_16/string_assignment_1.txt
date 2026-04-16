@@ -12,7 +12,7 @@
    
 4. WAP to print a string in title case
 	input:- 'this is javascript class'
-   output:- 'This Is Javascript Class'
+    output:- 'This Is Javascript Class'
 	
 5. WAP to find longest word in a sentence
 	input:- 'this is javascript class'
