@@ -1,0 +1,27 @@
+<script>
+    let str = 'javascript';
+
+    console.log(str.length); // 10
+    console.log(str.toUpperCase());
+    console.log(str.toLowerCase());
+
+    console.log(str.charAt(1)); // a
+    console.log(str[1]); // a
+    console.log(str.at(1)); // a
+
+    console.log(str.charAt(-2));
+    console.log(str[-2]);
+    console.log(str.at(-2)); // p
+
+
+    console.log(str.indexOf('a'));
+    console.log(str.lastIndexOf('a'));
+
+    let str2 = 'malayalam';
+    console.log(str2.indexOf('a')); // 1
+    console.log(str2.indexOf('a', 2)); // 3
+    console.log(str2.lastIndexOf('a')); // 7
+
+    console.log(str.includes('java'));// true
+    console.log(str.includes('python'));// false
+</script>

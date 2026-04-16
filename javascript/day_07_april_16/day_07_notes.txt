@@ -1,0 +1,51 @@
+1. literal
+   var str1 = "sachin";
+   typeof str1; //string
+
+2. object
+   var str2 = new String("sachin");    
+   typeof str2;   //"object"
+
+var a = "sachin";
+var b = "sachin"
+a == b; // true
+
+var a = "sachin";
+var b = new String("sachin")
+a == b; // true
+
+var a = new String("sachin");
+var b = new String("sachin");
+a == b;  // false
+
+
+
+String methods:
+--------------
+length;
+toUpperCase();
+toLowerCase();
+charAt();
+at()
+charCodeAt();
+concat();
+indexOf();
+lastIndexOf();
+includes();
+startsWith()
+endsWith()
+match();
+matchAll()   // returns iterator
+replace();
+replaceAll();
+repeat();
+slice(start, end)
+substring(start, end)
+substr(start, length)
+split()
+search(regex)
+trim()
+eval(); (eval() is from Window Object)
+localeCompare()
+
+N.p:- substring() cannot accept negative indexes. slice() does.
