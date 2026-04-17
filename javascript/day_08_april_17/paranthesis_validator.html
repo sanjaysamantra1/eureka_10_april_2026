@@ -1,0 +1,36 @@
+<script>
+    /* Ask user to enter a sequence of parantheses and validate 
+   input: '([{ }])'
+   output : true */
+    /* 1. split the string to individual chars
+
+    2. iterate each bracket 
+
+    3. declare an Array
+       a. if the bracket is opening , push it to Array
+       b. if the bracket is closing 
+                is it the pair of the last item
+                        -yes, pop it from array
+
+    4. check if array is left with still few itms */
+
+    function isValidParantheses(str) {
+        const arr = [];
+        const map = {
+            ')': '(',
+            ']': '[',
+            '}': '{',
+        }
+        for (char of str) {
+            if (char == '(' || char == '[' || char == '{') {
+                arr.push(char)
+            } else {
+                if (arr.pop() !== map[char]) {
+                    return false;
+                }
+            }
+        }
+        return arr.length == 0;
+    }
+    console.log(isValidParantheses('{[()]}'))
+</script>

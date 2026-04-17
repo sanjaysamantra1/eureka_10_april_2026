@@ -1,0 +1,19 @@
+<script>
+    /* 
+        1. iterate the string
+        2. capture current char, remaining characters
+        3. run permutation for remainig chars, combine the result
+    */
+
+
+    function printPermutation(str, res = '') {
+        if(str.length == 0){
+            console.log(res)
+        }
+        for (let i = 0; i < str.length; i++) {
+            let remainingChar = str.slice(0, i) + str.slice(i + 1);
+            printPermutation(remainingChar, res + str[i])
+        }
+    }
+    console.log(printPermutation('ABC'))// i=1 , current=B  remaining=AC
+</script>
