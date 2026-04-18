@@ -1,0 +1,21 @@
+<script>
+    let arr = [10, 20];
+
+    arr.push(30, 40);
+    console.log('After Push: ', arr); // [10, 20, 30, 40]
+
+    arr.pop();
+    console.log('After pop: ', arr); // [ 10, 20, 30 ]
+
+    arr.unshift(40);
+    console.log('After unshift: ', arr); // [ 40, 10, 20, 30 ]
+
+    arr.shift();
+    console.log('After shift: ', arr); // [ 10, 20, 30 ]
+
+    console.log(arr.at(1)); // 20
+
+    console.log(arr.includes(20)); // true
+    console.log(arr.includes(70)); // false
+
+</script>
