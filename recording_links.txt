@@ -33,3 +33,7 @@ Passcode: SZ0bV%jH
 day_09_april_18:
 https://zoom.us/rec/share/jHnZ35XhWEAG251XCG6y48i4zKm0hWdAWRo3HhCLLAvBGJ_uTS46GPMBpZrzJPFg.I4YXnCTalY5PcAKD 
 Passcode: z.nvS?1k
+
+day_10_april_20:
+https://zoom.us/rec/share/FW9telzUU_F2ets9EMi2CsvyG6nKUyxCXRlPsICBS7ZTDzHUfidF22xYZIYJCwnT.NCknYavV1rVQxvHH 
+Passcode: 0E6wx^*A
