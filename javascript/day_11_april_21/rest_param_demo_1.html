@@ -1,0 +1,14 @@
+<script>
+    function add(a, b) {
+        console.log(a + b)
+    }
+    add(10, 20);
+
+
+    function addition(...arr) { // REST Param
+        let sum = arr.reduce((a, b) => a + b);
+        console.log(`Sum:${sum}`)
+    }
+    addition(10, 20, 30); // arr = [10, 20, 30]
+    addition(10, 20, 30, 40); // arr = [10, 20, 30, 40]
+</script>

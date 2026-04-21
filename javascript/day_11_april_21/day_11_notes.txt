@@ -1,0 +1,46 @@
+Javascript : Programming Language , Follows ECMAScript Standards
+ECMA : European Computer Menufecturer Association
+ECMAScript : Set of standards, Followed BY Javascript
+
+
+ES_5      <=  june 2015
+ES_6      2015  ( const , let , class, extends, module , arrow, Map, Set , REST )
+ES_7      2016
+ES_8      2017
+ES_9      2018
+ES_10     2019
+ES_11     2020
+ES_12     2021
+ES_13     2022
+ES_14     2023
+ES_15     2024
+ES_16     2025
+
+
+
+ES_6 and Beyond
+===============
+1. Template Literal / String Interpolation
+2. let , const 
+3. REST Param
+4. Spread Operator
+5. Object Destructuring
+6. Array DeStructuring
+7. Default Parmeter value
+8. Classes
+
+
+
+Class & Object
+==============
+Class : Blueprint / Template / Structure 
+        physical existance
+
+Object: Every Real Time entity 
+        physical existance
+
+
+ES_5 :  Constructor function to create class
+ES_6 :  Class keyword
+
+

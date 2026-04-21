@@ -1,0 +1,23 @@
+let products = [
+  { id: 1, name: "Laptop", category: "electronics", price: 50000, qty: 2 },
+  { id: 2, name: "Mobile", category: "electronics", price: 20000, qty: 3 },
+  { id: 3, name: "Shirt", category: "fashion", price: 1000, qty: 5 }
+];
+
+// Output:
+// {
+//   electronics:  (50000*2 + 20000*3),
+//   fashion: (1000*5)
+// }
+
+
+
+2. Top 2 highest paid employees (without sort mutating original array)
+let employees = [
+  { eId: 1, name: "A", sal: 5000 },
+  { eId: 2, name: "B", sal: 9000 },
+  { eId: 3, name: "C", sal: 7000 },
+  { eId: 4, name: "D", sal: 10000 }
+];
+
+// Return top 2 highest salaries (do not modify original array)
