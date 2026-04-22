@@ -1,0 +1,25 @@
+Synchrounous Code : 
+Asynchronous Code : 
+
+
+
+Event loop
+==========
+heap - memory where all the variables are stored
+callstack - maintains stack of regular functions to execute 
+Microtask - promise, async, 
+Macrotask - setTimeout, setInterval
+Event Loop - Intermediator 
+
+Note: regular Functions don't have to wait in callback Queue, callback functions have to wait in callback queue
+
+
+https://www.jsv9000.app/
+
+
+
+Promise
+=======
+-Is an object whose value is not known now, but will be available in future.
+-States : Pending , Resolved, Rejected
+

@@ -1,0 +1,12 @@
+<script>
+    let max_num = Math.max(10, 20, 30, 40, 50);
+    console.log('max_num: ', max_num);
+
+
+    fetch('https://jsonplaceholder.typicode.com/users').then(response => {
+        response.json().then(finalData => {
+            console.log(finalData)
+        })
+    })
+
+</script>
