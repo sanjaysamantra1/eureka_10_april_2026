@@ -42,3 +42,7 @@ Passcode: 0E6wx^*A
 day_11_april_21:
 https://zoom.us/rec/share/H1SH18NBiUR4HpHjlDhE8vvkW47tdl19ssSXp6D98PiDYwYHG1PGsOVLN7N_rAKt.mMtk6uhXWk-zrCX2 
 Passcode: 5R^Z!bb^
+
+day_12_april_22:
+https://zoom.us/rec/share/qF3TI8KuvW3vkzVweRnv1NdY3KfIsqyfnpds0QtXFKaT4m4QaJPorQTSAEnGTZKl.CJLES6ocvnIloSrF 
+Passcode: RAR3?Y&C
