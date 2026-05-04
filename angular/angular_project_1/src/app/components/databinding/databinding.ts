@@ -24,4 +24,7 @@ export class Databinding {
   addition(val1: string, val2: string) {
     this.addResult = Number(val1) + Number(val2);
   }
+
+  max_length = 10;
+  
 }

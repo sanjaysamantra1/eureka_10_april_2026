@@ -37,3 +37,9 @@
   <button class="btn btn-primary" (click)="addition(myBox1.value, myBox2.value)">Add</button>
   <div>Addition Result: {{addResult}}</div>
 </div>
+
+<div class="border border-3 rounded-3 p-3 mt-2">
+  <div>Attribute Binding::</div>
+  PropertyBinding: <input type="text" [maxLength]="max_length">
+  Attribute Binding: <input type="text" [attr.maxlength]="max_length">
+</div>
