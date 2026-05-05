@@ -63,3 +63,7 @@ Passcode: #=q9FFs6
 day_16_may_4(angular_4):
 https://zoom.us/rec/share/Pvh5MYJjj_kNGLypYEzt6YrrzgxQML_mUc1QmfdsiCHXsge9IKURaVKCqPfNgj-E.aBYIsW21bFWJ5Vlr 
 Passcode: X4uSEFB?
+
+day_17_may_5(angular_5):
+https://zoom.us/rec/share/uFoACLCgYj_i-gl3fv9i9WOGaIiuprrTJoDMed6KTSaTepcmt7h4uXHxWZQvuT3l.N35CGXu0kvQuhZQW 
+Passcode: 2KvW%!#A
