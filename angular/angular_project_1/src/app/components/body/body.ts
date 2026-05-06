@@ -3,6 +3,9 @@ import { Databinding } from '../databinding/databinding';
 import { Directives } from '../directives/directives';
 import { DirectiveAssignment } from '../directive-assignment/directive-assignment';
 import { Products } from '../products/products';
+import { MyModal } from '../my-modal/my-modal';
+import { Users } from '../users/users';
+import { ProductList } from '../product-list/product-list';
 
 @Component({
   selector: 'app-body',
@@ -10,7 +13,10 @@ import { Products } from '../products/products';
     // Databinding,
     // Directives,
     // DirectiveAssignment
-    Products
+    // Products
+    // MyModal
+    // Users
+    ProductList
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
