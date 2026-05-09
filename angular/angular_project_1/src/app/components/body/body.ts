@@ -1,3 +1,4 @@
+import { PipesDemo } from './../pipes-demo/pipes-demo';
 import { Component } from '@angular/core';
 import { Databinding } from '../databinding/databinding';
 import { Directives } from '../directives/directives';
@@ -16,7 +17,8 @@ import { ProductList } from '../product-list/product-list';
     // Products
     // MyModal
     // Users
-    ProductList
+    // ProductList
+    PipesDemo
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
