@@ -6,17 +6,27 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import Swal from 'sweetalert2';
 import Snackbar from 'awesome-snackbar';
 import { FormsModule } from '@angular/forms';
+import { CharOnly } from '../../custom_directives/char-only';
+import { Disablepaste } from '../../custom_directives/disablepaste';
+import { Zoomin } from '../../custom_directives/zoomin';
 
 @Component({
   selector: 'app-product-list',
-  imports: [FontAwesomeModule, NgxPaginationModule, FormsModule],
+  imports: [
+    FontAwesomeModule,
+    NgxPaginationModule,
+    FormsModule,
+    CharOnly,
+    Disablepaste,
+    Zoomin
+  ],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
 })
 export class ProductList {
   productArr = productData;
   faStar = faStar;
-  
+
   performSearch(event: any) {
     const searchText = event.target.value;
     this.productArr = productData.filter((product) => {

@@ -1,11 +1,11 @@
-<h3 class="text-center">Product List</h3>
+<h3 class="text-center" appZoomin>Product List</h3>
 <button class="btn btn-primary mx-1" (click)="openSweetAlert()">sweetalert</button>
 <button class="btn btn-secondary" (click)="openSnackBar()">snackbar</button>
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 offset-3">
-      <input type="search" placeholder="Search..." class="form-control" (keyup)="performSearch($event)" />
+    <div class="col-sm-6 offset-3" appZoomin>
+      <input appCharOnly appDisablepaste type="search" placeholder="Search..." class="form-control" (keyup)="performSearch($event)" />
     </div>
     <div class="col-sm-3">
       <button class="btn btn-primary mx-1" (click)="sortAsc()">Sort Asc</button>
@@ -18,7 +18,7 @@
       <div class="col-sm-3">
         <div class="card">
           <img src="{{product.image}}" class="card-img-top" alt="..." height="200px">
-          <div class="card-body text-center">
+          <div class="card-body text-center" appZoomin>
             <h5 class="card-title">{{product.category}}</h5>
             <p class="card-text text-truncate">{{product.title}}</p>
             <p class="card-text text-truncate">{{product.description}}</p>
