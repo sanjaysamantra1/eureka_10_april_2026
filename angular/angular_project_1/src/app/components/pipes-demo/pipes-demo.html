@@ -76,8 +76,20 @@
 </div>
 
 <div class="border border-3 rounded-3 p-3 m-3">
+  <div>Sal: {{mySal}} <input type="number" [(ngModel)]="mySal"></div>
   <div>Custom Pipe: (remaining)</div>
   <textarea [(ngModel)]="msg" maxlength="100"></textarea>
   <div>Message: {{msg}}</div>
   <div>Remaining: {{msg | remaining : 100}}</div>
+</div>
+
+<div class="border border-3 rounded-3 p-3 m-3">
+  <div>Pure & Impure Pipe:</div>
+  @for (num of numArr | mySort; track $index) {
+    <b>{{num}} &nbsp;</b>
+  }
+  <div>
+    <input type="number" #newNum />
+    <button class="mx-1" (click)="numArr.push(+newNum.value)">Add</button>
+  </div>
 </div>
