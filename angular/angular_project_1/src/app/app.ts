@@ -10,7 +10,7 @@ import { Footer } from './components/footer/footer';
   imports: [
     Navbar,
     Categories,
-    Carousel,
+    // Carousel,
     Body,
     Footer
   ],
