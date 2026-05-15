@@ -4,8 +4,10 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
   selector: '[appZoomin]',
 })
 export class Zoomin {
+  // let obj = new ElementRef();
+
   // ele instance of ElementRef class
-  constructor(private ele: ElementRef) {
+  constructor(private ele: ElementRef) { // Dependency Injection
     console.log(ele.nativeElement)
   }
   @HostListener('mouseenter')
