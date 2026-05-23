@@ -13,6 +13,7 @@ import { Demo2 } from '../demo2/demo2';
 import { HttpDemo1 } from '../http-demo1/http-demo1';
 import { ProductListHttp } from '../product-list-http/product-list-http';
 import { CommentList } from '../comment-list/comment-list';
+import { EmployeeList } from '../employee-list/employee-list';
 
 @Component({
   selector: 'app-body',
@@ -30,7 +31,8 @@ import { CommentList } from '../comment-list/comment-list';
     // Demo2
     // HttpDemo1
     // ProductListHttp
-    CommentList
+    // CommentList
+    EmployeeList
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
