@@ -7,7 +7,7 @@ import { Comment } from '../models/comment';
   providedIn: 'root',
 })
 export class CommentService {
-  comment_api = 'https://jsonplaceholder.typicode.com/comments';
+  comment_api = 'ttps://jsonplaceholder.typicode.com/comments';
 
   httpClient = inject(HttpClient);
 

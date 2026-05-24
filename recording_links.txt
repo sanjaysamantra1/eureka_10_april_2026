@@ -103,3 +103,7 @@ Passcode: &Dy$a909
 day_26_may_23(angular_14):
 https://zoom.us/rec/share/W6jD2aRHxAOcqo9VHCDH3t8Wl02ua7D54-9KO2PO4ml-4aQkrdsHQ-a0omMUlFY5.7Guhg7kudQBrcH6C 
 Passcode: W1i^TQwA
+
+day_27_may_24(angular_15):
+https://zoom.us/rec/share/uXgM5YlDMjPElZ_PRhRom_e52frgzEQbBaKJzH4od9XoqbcwNA7xhkU2U3wT7jTD.-PhlF3O_aabhQoze 
+Passcode: aa7Dx!C!
