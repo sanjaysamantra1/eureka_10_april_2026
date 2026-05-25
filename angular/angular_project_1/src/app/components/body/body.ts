@@ -15,6 +15,8 @@ import { ProductListHttp } from '../product-list-http/product-list-http';
 import { CommentList } from '../comment-list/comment-list';
 import { EmployeeList } from '../employee-list/employee-list';
 import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
+import { ObservableDemo2 } from '../observable-demo2/observable-demo2';
+import { ObservableDemo3 } from '../observable-demo3/observable-demo3';
 
 @Component({
   selector: 'app-body',
@@ -34,7 +36,9 @@ import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
     // ProductListHttp
     // CommentList
     // EmployeeList
-    ObservableDemo1
+    // ObservableDemo1
+    // ObservableDemo2
+    ObservableDemo3
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
