@@ -17,6 +17,10 @@ import { EmployeeList } from '../employee-list/employee-list';
 import { ObservableDemo1 } from '../observable-demo1/observable-demo1';
 import { ObservableDemo2 } from '../observable-demo2/observable-demo2';
 import { ObservableDemo3 } from '../observable-demo3/observable-demo3';
+import { SubjectDemo1 } from '../subject-demo1/subject-demo1';
+import { TodoAdd } from '../todo-add/todo-add';
+import { TodoList } from '../todo-list/todo-list';
+import { UserList } from '../user-list/user-list';
 
 @Component({
   selector: 'app-body',
@@ -38,7 +42,11 @@ import { ObservableDemo3 } from '../observable-demo3/observable-demo3';
     // EmployeeList
     // ObservableDemo1
     // ObservableDemo2
-    ObservableDemo3
+    // ObservableDemo3
+    // SubjectDemo1
+    // TodoAdd,
+    // TodoList
+    UserList
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
