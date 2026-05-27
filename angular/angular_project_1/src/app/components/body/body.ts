@@ -1,3 +1,4 @@
+import { SignalDemo1 } from './../signal-demo1/signal-demo1';
 import { PipesDemo } from './../pipes-demo/pipes-demo';
 import { Component } from '@angular/core';
 import { Databinding } from '../databinding/databinding';
@@ -21,6 +22,7 @@ import { SubjectDemo1 } from '../subject-demo1/subject-demo1';
 import { TodoAdd } from '../todo-add/todo-add';
 import { TodoList } from '../todo-list/todo-list';
 import { UserList } from '../user-list/user-list';
+import { SignalDemo2 } from '../signal-demo2/signal-demo2';
 
 @Component({
   selector: 'app-body',
@@ -46,7 +48,9 @@ import { UserList } from '../user-list/user-list';
     // SubjectDemo1
     // TodoAdd,
     // TodoList
-    UserList
+    // UserList
+    // SignalDemo1
+    SignalDemo2
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
