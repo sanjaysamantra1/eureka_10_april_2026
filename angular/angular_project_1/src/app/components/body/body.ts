@@ -1,3 +1,4 @@
+import { FormDemo1 } from './../form-demo1/form-demo1';
 import { SignalDemo1 } from './../signal-demo1/signal-demo1';
 import { PipesDemo } from './../pipes-demo/pipes-demo';
 import { Component } from '@angular/core';
@@ -23,6 +24,8 @@ import { TodoAdd } from '../todo-add/todo-add';
 import { TodoList } from '../todo-list/todo-list';
 import { UserList } from '../user-list/user-list';
 import { SignalDemo2 } from '../signal-demo2/signal-demo2';
+import { TemplateFormDemo1 } from '../template-form-demo1/template-form-demo1';
+import { ModelFormDemo1 } from '../model-form-demo1/model-form-demo1';
 
 @Component({
   selector: 'app-body',
@@ -50,7 +53,10 @@ import { SignalDemo2 } from '../signal-demo2/signal-demo2';
     // TodoList
     // UserList
     // SignalDemo1
-    SignalDemo2
+    // SignalDemo2
+    // FormDemo1
+    // TemplateFormDemo1
+    ModelFormDemo1
   ],
   templateUrl: './body.html',
   styleUrl: './body.css',
