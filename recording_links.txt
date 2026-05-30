@@ -127,3 +127,7 @@ Passcode: Y^4hm6TD
 day_32_may_29(angular_20):
 https://zoom.us/rec/share/MK-PCR7JciGQ-khm_NkiNur6j_I3wCMKVMqrtK6HMM3kvNfbeg4zDnJQa2aJmBeQ.HThS3dET8G6Dy79S 
 Passcode: J@fDG.2U
+
+day_33_may_30(angular_21):
+https://zoom.us/rec/share/ODnQlevUj3odg8Je7hkaF0RelXH2Q9F8Sw5aAFBczqUmksCrur_d_ziq-_we7tT7.SJH3Sd5zzf0Qq2Sd 
+Passcode: A4rDb+d2
