@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { CharOnly } from '../../custom_directives/char-only';
 import { Disablepaste } from '../../custom_directives/disablepaste';
 import { Zoomin } from '../../custom_directives/zoomin';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -18,7 +19,8 @@ import { Zoomin } from '../../custom_directives/zoomin';
     FormsModule,
     CharOnly,
     Disablepaste,
-    Zoomin
+    Zoomin,
+    RouterLink
   ],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',

@@ -12,7 +12,7 @@ export class Zoomin {
   }
   @HostListener('mouseenter')
   onMouseEnter() {
-    this.ele.nativeElement.style.transform = 'scale(100%,130%)'
+    this.ele.nativeElement.style.transform = 'scale(100%,105%)'
   }
   @HostListener('mouseleave')
   onMouseLeave() {
