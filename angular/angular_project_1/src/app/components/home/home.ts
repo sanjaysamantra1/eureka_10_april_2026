@@ -1,3 +1,4 @@
+import { MaterialDemo } from './../material-demo/material-demo';
 import { Component } from '@angular/core';
 // import { LargeComponent } from '../large-component/large-component';
 import { NgComponentOutlet } from '@angular/common';
@@ -5,7 +6,8 @@ import { NgComponentOutlet } from '@angular/common';
 @Component({
   selector: 'app-home',
   imports: [
-    NgComponentOutlet
+    NgComponentOutlet,
+    MaterialDemo
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
