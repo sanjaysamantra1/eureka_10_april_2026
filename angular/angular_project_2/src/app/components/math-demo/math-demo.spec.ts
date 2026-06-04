@@ -29,7 +29,13 @@ describe('MathDemo', () => {
 
   it('should verify isEven function', () => {
     expect(component.isEVen(4)).toBe(true);
+    expect(component.isEVen(4)).not.toBe(false);
+
     expect(component.isEVen(5)).toBe(false);
+    expect(component.isEVen(5)).not.toBe(true);
   });
 
+  it('should verify sumOfDigits function', () => {
+    expect(component.sumOfDigits(125)).toBe(8);
+  });
 });

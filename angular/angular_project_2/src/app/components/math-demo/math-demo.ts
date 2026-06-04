@@ -18,4 +18,15 @@ export class MathDemo {
       return false;
     }
   }
+
+  sumOfDigits(num: number) {
+    let sum = 0;
+    let rem;
+    while (num != 0) {
+      rem = num % 10;
+      sum = sum + rem;
+      num = Math.floor(num / 10);
+    }
+    return sum;
+  }
 }
