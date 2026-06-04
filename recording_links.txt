@@ -143,3 +143,7 @@ Passcode: 0bY&B3gL
 day_36_june_3(angular_24):
 https://zoom.us/rec/share/33FlR4d5h3C_vVg-kpPZNW-5LshfR3yTl41sE7WHVmWi1NqXXpToH7VM6jfdjiZM.df2N9DKJsaBchJIC 
 Passcode: t3+X9J6J
+
+day_37_june_4(angular_25):
+https://zoom.us/rec/share/Pu4TW90pMdQIZQPCEv9FBknLg08H6KZHmBFv8cvm7XwZT_Eis_p_eUzZLiXvKYs.yNr3JNMSGLRO1QHl 
+Passcode: gn1^qsqQ
