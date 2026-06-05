@@ -1,9 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { MathDemo } from "./components/math-demo/math-demo";
+// import { MathDemo } from "./components/math-demo/math-demo";
+import { Counter } from './components/counter/counter';
 
 @Component({
   selector: 'app-root',
-  imports: [MathDemo],
+  imports: [
+    // MathDemo,
+    Counter
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
